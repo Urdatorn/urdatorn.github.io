@@ -1,0 +1,164 @@
+%
+% This is the LaTeX style file for Plotting Poetry Proceedings.
+%
+
+%===============================================================
+% PACKAGES
+\RequirePackage[paperheight=24cm,paperwidth=17cm,margin=2cm]{geometry}
+\RequirePackage{booktabs} 
+\RequirePackage[font=small]{caption} 
+\RequirePackage{subcaption}
+\RequirePackage{amsfonts} 
+\RequirePackage{graphicx}
+\RequirePackage[all]{nowidow}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[english]{babel}
+\RequirePackage{tikz}
+\usetikzlibrary{er,positioning,bayesnet}
+\RequirePackage{multicol}
+\RequirePackage{algpseudocode,algorithm,algorithmicx}
+\RequirePackage{verse}
+\RequirePackage{hyperref}
+\RequirePackage[inline]{enumitem}
+\RequirePackage{todonotes}
+\RequirePackage{tablefootnote}
+\RequirePackage{dirtytalk}
+\RequirePackage{float}
+\RequirePackage{yfonts}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{titlesec}
+\RequirePackage{fancyhdr,lipsum}
+\RequirePackage{csquotes}
+\RequirePackage[style=authoryear, backend=biber, bibencoding=utf8,
+    defernumbers=true, maxnames=99, language=english, dashed=false
+]{biblatex}
+
+%===============================================================
+% BIBLIOGRAPHY
+
+\addbibresource{plottingpoetry.bib}
+
+%===============================================================
+% COLORS 
+
+% Define colors
+\definecolor{primarycolor}{HTML}{4c72b0}
+\definecolor{secondarycolor}{HTML}{428251}
+\definecolor{figcol1}{HTML}{4c72b0}
+\definecolor{figcol2}{HTML}{dd8452}
+\definecolor{figcol3}{HTML}{55a868}
+\definecolor{figcol4}{HTML}{c44e52}
+\definecolor{figcol5}{HTML}{8172b3}
+\definecolor{figcol6}{HTML}{937860}
+\definecolor{figcol7}{HTML}{da8bc3}
+\definecolor{figcol8}{HTML}{8c8c8c}
+\definecolor{figcol9}{HTML}{ccb974}
+\definecolor{figcol10}{HTML}{64b5cd}
+
+% Title
+\makeatletter
+\renewcommand{\title}[1]{\renewcommand{\@title}{\textbf{\color{\@titlecolor}#1}}}
+\newcommand{\@titlecolor}{primarycolor}
+\newcommand{\titlecolor}[1]{\renewcommand{\@titlecolor}{#1}}
+\makeatother
+
+% Abstract
+\renewenvironment{abstract}{
+    \footnotesize
+    \begin{center}
+         {\small\bfseries\color{primarycolor}{\abstractname}}%
+    \end{center}
+    \quotation
+}
+{\endquotation}
+
+% Section and subsection titles
+\titleformat*{\section}{\normalfont\large\bfseries\color{primarycolor}}
+\titleformat*{\subsection}{\normalfont\normalsize\bfseries\color{primarycolor}}
+
+% Links and citations
+\hypersetup{
+    colorlinks, 
+    citecolor=secondarycolor, 
+    linkcolor=secondarycolor, 
+    urlcolor=secondarycolor,
+}
+
+%===============================================================
+% AUTHORS & AFFILIATIONS 
+
+\newcommand{\ppauthname}[1]{\large{#1}\\[-1mm]}
+\newcommand{\ppaffil}[1]{\footnotesize{#1}\\[-1mm]}
+\newcommand{\ppemail}[1]{\footnotesize{#1}\\}
+
+%===============================================================
+% RUNNING HEAD
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE]{\small[running authors]}
+\fancyhead[LO]{\small[short title]}
+\fancyhead[LE]{\small\thepage}
+\fancyhead[RO]{\small\thepage}
+\cfoot{}
+
+%===============================================================
+% BLOCK QUOTES, VERSE ENVIRONMENT
+
+\AtBeginEnvironment{quote}{\small}
+\AtBeginEnvironment{verse}{\small}
+
+%===============================================================
+% LINK AUTHOR'S NAME IN CITATION
+
+\DeclareCiteCommand{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\cite}
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand*{\parencite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+    \printtext[bibhyperref]{\usebibmacro{citeyear}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcite}[\mkbibfootnote]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+  \printtext[bibhyperref]{ \usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\footcitetext}[\mkbibfootnotetext]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\textcite}
+  {\boolfalse{cbx:parens}}
+  {\usebibmacro{citeindex}%
+   \printtext[bibhyperref]{\usebibmacro{textcite}}}
+  {\ifbool{cbx:parens}
+     {\bibcloseparen\global\boolfalse{cbx:parens}}
+     {}%
+   \multicitedelim}
+  {\usebibmacro{textcite:postnote}}

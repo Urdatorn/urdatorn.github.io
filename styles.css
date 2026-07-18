@@ -66,9 +66,19 @@ blockquote {
   margin-bottom: 0;
 }
 
+.btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #29474d;
+  border-color: #29474d;
+}
+
 @media (max-width: 700px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
 }
-

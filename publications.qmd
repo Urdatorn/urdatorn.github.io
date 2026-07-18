@@ -1,0 +1,22 @@
+---
+title: "Publications"
+description: "Publications and self-archived research by Albin Thörn Cleland."
+---
+
+## Hidden Choral Stimuli: The Role of Accent in Aristophanes’ Refrains
+
+**Albin Thörn Cleland**  
+Lund University, Sweden
+
+Self-archived manuscript · [Download PDF](articles/aristophanes/aristophanes-june-15.pdf){.btn .btn-primary}
+
+### Abstract
+
+In Ancient Greek songs with multiple refrains, patterns of heavy and light syllables recur across strophes. Wahlström (1970) hypothesised that the distributions of pitch accents likewise respond in a way that cannot be attributed solely to chance, but his method was rudimentary.
+
+After decades in the closet, Wahlström’s hypothesis re-emerged through the computational approach of Conser (2020), which opened the field to large-scale diachronic corpus studies and new statistical methods.
+
+These methods have so far mainly been applied to the two-refrain songs of tragedy. Aristophanes stands out as the only dramatist whose preserved plays include songs with three or more refrains, imposing stricter constraints on recurring phenomena. I analyse his 78 strophic songs using three computational metrics based on orthographic, phonemic and melodic accents.
+
+Aristophanes’ distribution of accents is shown to be significant by permutation tests against baselines of both iambic trimeter and trochaic tetrameter, corroborating Wahlström. However, accentual responsion is smaller in Aristophanes than in the earlier dramatists Sophocles and Aeschylus. More strikingly, Aristophanes shows a negative diachronic trend, whereas Aeschylus shows a positive one, raising new questions about the relationship between accentual responsion and genre. Taken together, these findings are important for the history of late fifth-century B.C. lyric and the New Music associated with it, and indicate the need for further research.
+

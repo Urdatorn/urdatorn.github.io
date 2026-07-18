@@ -12,8 +12,12 @@ website:
     right:
       - href: index.qmd
         text: Home
+      - href: publications.qmd
+        text: Publications
       - href: "https://github.com/Urdatorn"
         text: GitHub
+      - href: "https://huggingface.co/Urdatorn"
+        text: Hugging Face
       - href: "https://orcid.org/0009-0003-3731-4038"
         text: ORCID
       - href: "https://www.linkedin.com/in/albin-thörn-cleland"
@@ -28,4 +32,3 @@ format:
     css: styles.css
     toc: false
     anchor-sections: false
-
