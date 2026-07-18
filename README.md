@@ -8,4 +8,4 @@ Preview locally with:
 quarto preview
 ```
 
-Pushes to `main` are rendered and deployed to GitHub Pages by GitHub Actions.
+Pushes to `master` are rendered and deployed to GitHub Pages by GitHub Actions.
