@@ -1,0 +1,74 @@
+:root {
+  --ink: #20272b;
+  --muted: #5e6a70;
+  --accent: #375b62;
+  --paper: #fbfaf7;
+  --line: #dce2df;
+}
+
+body {
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.navbar {
+  border-bottom: 1px solid var(--line);
+}
+
+.quarto-about-jolla {
+  padding-top: 3.5rem;
+}
+
+.quarto-about-jolla .about-image {
+  box-shadow: 0 8px 30px rgb(30 50 55 / 12%);
+}
+
+.about-entity .subtitle {
+  color: var(--muted);
+}
+
+h2 {
+  margin-top: 3rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+a {
+  color: var(--accent);
+}
+
+blockquote {
+  margin: 2.5rem 0;
+  padding: .4rem 0 .4rem 1.4rem;
+  color: var(--muted);
+  border-left-color: var(--accent);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  padding: 1.3rem 1.4rem;
+  background: rgb(255 255 255 / 58%);
+  border: 1px solid var(--line);
+  border-radius: .45rem;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.project-card p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

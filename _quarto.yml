@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Albin Thörn Cleland"
+  site-url: "https://urdatorn.github.io"
+  description: "Digital philologist working with machine learning and Ancient Greek."
+  navbar:
+    background: light
+    title: "Albin Thörn Cleland"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: "https://github.com/Urdatorn"
+        text: GitHub
+      - href: "https://orcid.org/0009-0003-3731-4038"
+        text: ORCID
+      - href: "https://www.linkedin.com/in/albin-thörn-cleland"
+        text: LinkedIn
+  page-footer:
+    left: "© Albin Thörn Cleland"
+    right: "Built with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    anchor-sections: false
+
