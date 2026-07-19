@@ -16,15 +16,13 @@ website:
       - href: publications.qmd
         text: publications
       - href: "https://github.com/Urdatorn"
-        icon: github
-        aria-label: GitHub
+        text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" alt="GitHub" title="GitHub">'
       - href: "https://huggingface.co/Urdatorn"
-        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/huggingface/000000" alt="Hugging Face" title="Hugging Face">'
+        text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/huggingface.svg" alt="Hugging Face" title="Hugging Face">'
       - href: "https://orcid.org/0009-0003-3731-4038"
-        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/orcid/000000" alt="ORCID" title="ORCID">'
+        text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/orcid.svg" alt="ORCID" title="ORCID">'
       - href: "https://www.linkedin.com/in/albin-thörn-cleland"
-        icon: linkedin
-        aria-label: LinkedIn
+        text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn" title="LinkedIn">'
   page-footer:
     left: "© Albin Thörn Cleland"
     right: "Built with [Quarto](https://quarto.org/)"

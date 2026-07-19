@@ -10,11 +10,8 @@ about:
 I am a digital philologist at **Lund University**. I explore how natural language processing, programming, and machine learning can advance our understanding of ancient languages, with a particular focus on Ancient Greek.
 
 My work uses Python and BERT-based models to study prosody, verse, and the relationship between language and music.
-> “They’re not poets but mere mechanics. Look at these collections of so-called verse. Three poems and sixty pages of operating instructions.”
->
-> — J. G. Ballard, *Vermilion Sands*
 
-## Featured work
+## Featured projects
 
 ::: {.project-grid}
 ::: {.project-card}
