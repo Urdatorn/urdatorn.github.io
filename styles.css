@@ -16,9 +16,16 @@ body {
 }
 
 .navbar .nav-logo {
-  display: block;
+  display: inline-block;
   width: 1rem;
   height: 1rem;
+  vertical-align: -.125em;
+  opacity: .55;
+}
+
+.navbar .nav-link:hover .nav-logo,
+.navbar .nav-link:focus .nav-logo {
+  opacity: .7;
 }
 
 .navbar .bi {

@@ -5,21 +5,11 @@ image: "https://github.com/Urdatorn.png"
 about:
   template: jolla
   image-shape: rounded
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/Urdatorn
-    - text: ORCID
-      href: https://orcid.org/0009-0003-3731-4038
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/albin-thörn-cleland
 ---
 
 I am a digital philologist at **Lund University**. I explore how natural language processing, programming, and machine learning can advance our understanding of ancient languages, with a particular focus on Ancient Greek.
 
-My work uses Python and BERT-based models to study prosody, verse, and the relationship between language and music. I am also interested in the history and philosophy of empirical science.
-
+My work uses Python and BERT-based models to study prosody, verse, and the relationship between language and music.
 > “They’re not poets but mere mechanics. Look at these collections of so-called verse. Three poems and sixty pages of operating instructions.”
 >
 > — J. G. Ballard, *Vermilion Sands*

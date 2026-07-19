@@ -9,19 +9,19 @@ website:
   search: false
   navbar:
     background: light
-    title: "Albin Thörn Cleland"
+    title: "albin thörn cleland"
     right:
       - href: index.qmd
-        text: Home
+        text: about
       - href: publications.qmd
-        text: Publications
+        text: publications
       - href: "https://github.com/Urdatorn"
         icon: github
         aria-label: GitHub
       - href: "https://huggingface.co/Urdatorn"
-        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/huggingface/375b62" alt="Hugging Face" title="Hugging Face">'
+        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/huggingface/000000" alt="Hugging Face" title="Hugging Face">'
       - href: "https://orcid.org/0009-0003-3731-4038"
-        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/orcid/375b62" alt="ORCID" title="ORCID">'
+        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/orcid/000000" alt="ORCID" title="ORCID">'
       - href: "https://www.linkedin.com/in/albin-thörn-cleland"
         icon: linkedin
         aria-label: LinkedIn
