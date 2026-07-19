@@ -1,10 +1,9 @@
 ---
 title: "Albin Thörn Cleland"
 subtitle: "Digital Philologist · Machine Learning for Ancient Greek"
-image: "https://github.com/Urdatorn.png"
 about:
   template: jolla
-  image-shape: rounded
+  image: "https://github.com/Urdatorn.png"
 ---
 
 I am a digital philologist at **Lund University**. I explore how natural language processing, programming, and machine learning can advance our understanding of ancient languages, with a particular focus on Ancient Greek.
