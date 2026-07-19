@@ -43,19 +43,3 @@ Digital analysis of accentual responsion in Aristophanes’ cantica.
 [View on GitHub →](https://github.com/Urdatorn/aristophanis-cantica)
 :::
 :::
-
-## Selected projects
-
-- [**grc-macronizer**](https://github.com/Urdatorn/grc-macronizer) — Automatic annotation of Ancient Greek vowel length.
-- [**grc-utils**](https://github.com/Urdatorn/grc-utils) — Natural language processing utilities for Ancient Greek.
-- [**responsio-accentuum**](https://github.com/Urdatorn/responsio-accentuum) — Measuring accentual responsion in Greek polystrophic lyric.
-- [**aristophanis-cantica**](https://github.com/Urdatorn/aristophanis-cantica) — Accentual responsion in Aristophanes.
-
-## Skills and languages
-
-**Research:** Digital philology, digital humanities, Ancient Greek  
-**Methods:** Python, BERT, natural language processing, transformers  
-**Languages:** Swedish, English, French, Thai, Ancient Greek, Spanish
-
-Find my publications and research record on [ORCID](https://orcid.org/0009-0003-3731-4038).
-

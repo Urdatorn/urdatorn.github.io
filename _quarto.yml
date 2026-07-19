@@ -6,6 +6,7 @@ website:
   title: "Albin Thörn Cleland"
   site-url: "https://urdatorn.github.io"
   description: "Digital philologist working with machine learning and Ancient Greek."
+  search: false
   navbar:
     background: light
     title: "Albin Thörn Cleland"
@@ -15,13 +16,15 @@ website:
       - href: publications.qmd
         text: Publications
       - href: "https://github.com/Urdatorn"
-        text: GitHub
+        icon: github
+        aria-label: GitHub
       - href: "https://huggingface.co/Urdatorn"
-        text: Hugging Face
+        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/huggingface/375b62" alt="Hugging Face" title="Hugging Face">'
       - href: "https://orcid.org/0009-0003-3731-4038"
-        text: ORCID
+        text: '<img class="nav-logo" src="https://cdn.simpleicons.org/orcid/375b62" alt="ORCID" title="ORCID">'
       - href: "https://www.linkedin.com/in/albin-thörn-cleland"
-        text: LinkedIn
+        icon: linkedin
+        aria-label: LinkedIn
   page-footer:
     left: "© Albin Thörn Cleland"
     right: "Built with [Quarto](https://quarto.org/)"
