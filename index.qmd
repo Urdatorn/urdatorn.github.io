@@ -6,5 +6,10 @@ about:
   image: "https://github.com/Urdatorn.png"
 ---
 
+# Short Bio
+
 I am a doctoral student in the [Swedish Graduate School of Digital Philology](https://www.uu.se/institution/lingvistik-och-filologi/utbildning/tidiga-sprak-digital-filologi) at Lund University. In my research, I apply natural language processing, statistics and machine learning to the study of historical languages, with a focus on Ancient Greek.
 
+# Current Research 
+
+Currently I am part of a research project on Ancient Greek [textual restoration, parsing, and metrical scansion](https://arxiv.org/abs/2608.07249) as well as [the first fully general models for automatic disambiguation of vowel length](https://arxiv.org/abs/2608.01935). To assist textual restoration, I am researching automatic authorship attribution, and the relative value of features from syntax, semantics, LLM perplexity and beyond. 
