@@ -6,5 +6,5 @@ about:
   image: "https://github.com/Urdatorn.png"
 ---
 
-I am a doctoral student in the **Swedish Graduate School of Digital Philology** at Lund University. In my research, I apply natural language processing, statistics and machine learning to the study of historical languages, with a focus on Ancient Greek.
+I am a doctoral student in the [Swedish Graduate School of Digital Philology](https://www.uu.se/institution/lingvistik-och-filologi/utbildning/tidiga-sprak-digital-filologi) at Lund University. In my research, I apply natural language processing, statistics and machine learning to the study of historical languages, with a focus on Ancient Greek.
 
