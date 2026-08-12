@@ -13,3 +13,5 @@ I am a doctoral student in the [Swedish Graduate School of Digital Philology](ht
 # Current Research 
 
 Currently I am part of a research project on Ancient Greek [textual restoration, parsing, and metrical scansion](https://arxiv.org/abs/2608.07249) as well as [the first fully general models for automatic disambiguation of vowel length](https://arxiv.org/abs/2608.01935). To assist textual restoration, I am researching automatic authorship attribution, and the relative value of features from syntax, semantics, LLM perplexity and beyond. 
+
+I have also recently done work on the melody of [the songs of Aristophanes' comedies](articles/aristophanes/aristophanes-june-15.pdf) and the victory odes of Pindar.
