@@ -1,6 +1,6 @@
 ---
 title: "Albin Thörn Cleland"
-subtitle: "Digital Philologist · Machine Learning for Ancient Greek"
+subtitle: "Digital Philology · Machine Learning for Ancient Greek"
 about:
   template: jolla
   image: "https://github.com/Urdatorn.png"
