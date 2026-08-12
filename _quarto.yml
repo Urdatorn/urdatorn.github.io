@@ -13,8 +13,6 @@ website:
     right:
       - href: index.qmd
         text: about
-      - href: publications.qmd
-        text: publications
       - href: "https://github.com/Urdatorn"
         text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" alt="GitHub" title="GitHub">'
       - href: "https://huggingface.co/Urdatorn"
@@ -24,7 +22,7 @@ website:
       - href: "https://www.linkedin.com/in/albin-thörn-cleland"
         text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn" title="LinkedIn">'
   page-footer:
-    left: "© Albin Thörn Cleland"
+    left: "© Albin Thörn Cleland 2026"
     right: "Built with [Quarto](https://quarto.org/)"
 
 format:
