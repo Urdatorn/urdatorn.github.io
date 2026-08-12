@@ -6,26 +6,5 @@ about:
   image: "https://github.com/Urdatorn.png"
 ---
 
-I am a digital philologist at **Lund University**. I explore how natural language processing, programming, and machine learning can advance our understanding of ancient languages, with a particular focus on Ancient Greek.
+I am a doctoral student in the **Swedish Graduate School of Digital Philology** at Lund University. In my research, I apply natural language processing, statistics and machine learning to the study of historical languages, with a focus on Ancient Greek.
 
-My work uses Python and BERT-based models to study prosody, verse, and the relationship between language and music.
-
-## Featured projects
-
-::: {.project-grid}
-::: {.project-card}
-### [SyllaMoBert-grc-macronizer-v1](https://huggingface.co/Urdatorn/SyllaMoBert-grc-macronizer-v1)
-
-A BERT-based model for Ancient Greek syllabification and macronization.
-
-[View on Hugging Face →](https://huggingface.co/Urdatorn/SyllaMoBert-grc-macronizer-v1)
-:::
-
-::: {.project-card}
-### [aristophanis-cantica](https://github.com/Urdatorn/aristophanis-cantica)
-
-Digital analysis of accentual responsion in Aristophanes’ cantica.
-
-[View on GitHub →](https://github.com/Urdatorn/aristophanis-cantica)
-:::
-:::
