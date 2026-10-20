@@ -21,11 +21,12 @@ body {
   height: 1rem;
   vertical-align: -.125em;
   opacity: .55;
+  transition: opacity .15s ease;
 }
 
 .navbar .nav-link:hover .nav-logo,
 .navbar .nav-link:focus .nav-logo {
-  opacity: .7;
+  opacity: .9;
 }
 
 .quarto-about-jolla {

@@ -17,6 +17,8 @@ website:
         text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" alt="GitHub" title="GitHub">'
       - href: "https://huggingface.co/Urdatorn"
         text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/huggingface.svg" alt="Hugging Face" title="Hugging Face">'
+      - href: "https://arxiv.org/a/thorncleland_a_1.html"
+        text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/arxiv.svg" alt="arXiv" title="arXiv">'
       - href: "https://orcid.org/0009-0003-3731-4038"
         text: '<img class="nav-logo" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/orcid.svg" alt="ORCID" title="ORCID">'
       - href: "https://www.linkedin.com/in/albin-thörn-cleland"
