@@ -6,9 +6,20 @@
   --line: #dce2df;
 }
 
+html,
 body {
   color: var(--ink);
   background: var(--paper);
+}
+
+/* Keep the footer and the overscroll/rubber-band area the same colour as the page */
+.nav-footer,
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-center,
+.nav-footer .nav-footer-right,
+#quarto-content,
+.page-columns {
+  background-color: var(--paper);
 }
 
 .navbar {
@@ -94,5 +105,42 @@ blockquote {
 @media (max-width: 700px) {
   .project-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile menu: a slim floating bar of icons that overlays the page
+   instead of pushing the content down */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: absolute;
+    top: calc(100% + .4rem);
+    left: .75rem;
+    z-index: 1050;
+    padding: .2rem .6rem;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: .45rem;
+    box-shadow: 0 8px 24px rgb(30 50 55 / 14%);
+  }
+
+  .navbar-collapse.collapsing {
+    height: auto !important;
+    transition: none;
+  }
+
+  .navbar-collapse .navbar-nav {
+    flex-direction: row;
+    gap: .35rem;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .navbar-collapse .nav-link {
+    padding: .55rem .5rem;
+  }
+
+  .navbar .nav-logo {
+    width: 1.25rem;
+    height: 1.25rem;
   }
 }
