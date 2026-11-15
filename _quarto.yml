@@ -1,10 +1,12 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - robots.txt
 
 website:
   title: "Albin Thörn Cleland"
-  site-url: "https://urdatorn.github.io"
+  site-url: "https://albinthorncleland.com"
   description: "Digital philologist working with machine learning and Ancient Greek."
   search: false
   navbar:

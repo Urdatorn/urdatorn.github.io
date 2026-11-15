@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://albinthorncleland.com/sitemap.xml
+Sitemap: https://albinthorncleland.com/linder-walberg/sitemap.xml
