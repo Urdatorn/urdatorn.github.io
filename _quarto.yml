@@ -32,3 +32,4 @@ format:
     css: styles.css
     toc: false
     anchor-sections: false
+    canonical-url: true
